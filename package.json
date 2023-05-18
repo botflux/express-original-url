@@ -1,0 +1,33 @@
+{
+  "name": "express-original-url",
+  "version": "1.0.0",
+  "description": "Get the route url with the original path variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botflux/express-original-url.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botflux/express-original-url/issues"
+  },
+  "homepage": "https://github.com/botflux/express-original-url#readme",
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/express": "^4.17.17",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.2.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
