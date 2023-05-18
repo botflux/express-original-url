@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "ts-mocha --project ./tsconfig.test.json \"tests/**/*.spec.ts\"",
+    "test:transpileOnly": "tsc --project ./tsconfig.test.json --noEmit",
     "build": "tsc --project ./tsconfig.build.json"
   },
   "repository": {
@@ -31,5 +32,8 @@
     "ts-mocha": "^10.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
 }
