@@ -3,7 +3,7 @@ name: Project build and test
 on: [push]
 
 jobs:
-  "Build and test":
+  "Build-and-test":
     runs-on: ubuntu-latest
     strategy:
       matrix:
